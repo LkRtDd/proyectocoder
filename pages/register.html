@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+
+        <header>
+          <div class="navigationbar">
+            <nav class="navbar navbar-dark bg-black fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="../img/logo4.png" width="15%" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">                    
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html"><img src="../img/logo4.png" width="35%" alt="">Version 99b Exp x7500</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../pages/login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/register.html">Register</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/downloads.html">Downloads</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/donations.html">Donations</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/rules.html">Rules</a>
+                          </li>                   
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <h1>Register</h1>
+          <div class="border border-warning" style="width: 80%;">
+            <form class="class="mw-100" style="width: 35%;">
+                <div class="mb-3">
+                    <label for="nickname" class="form-label">Nickname</label>
+                     <input type="text" placeholder="Nickname" class="form-control" id="repeatpass">
+                      </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" placeholder="**********" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">*Email address</label>
+                    <input type="email" required placeholder="example123@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                <div class="mb-3">
+                <label for="password" class="form-label">*Repeat Password</label>
+                 <input type="password" required class="form-control" id="repeatpass">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Repeat email address</label>
+                    <input type="email" required class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="gender">Gender:
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                            <input type="radio" name="gender">Other
+                        </label>
+                    </div>
+                    <label for="region">Region:</label>
+                    <select name="region" id="">
+                        <option value="south">South America</option>
+                        <option value="north">North America</option>
+                        <option value="europe">Europe</option>
+                        <option value="asia">Asia</option>
+                        <option value="africa">Africa</option>
+                    </select>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I have read and accept the rules.</label>
+                </div>
+                <button type="submit" class="btn btn-danger">Register</button>
+              </form>
+            </div>
+            
+        <section class="bannermu">
+        <img src="../img/banner.jpg" alt="">
+      </section>
+  
+        </main>
+        <footer>
+            <a href="http://instagram.com"><img src="../img/iglogo.png" alt="iglogo" ></a>
+            <a href="http://facebook.com"><img src="../img/fblogo.jpg" alt="fblogo"></a>
+            <a href="http://discord.com"><img src="..//img/discordlogo.jpg" alt="discordlogo" ></a>
+            <img id="serverinfo" src="../img/serverinfo.png" alt="">
+            
+            <h4><a href="http://redemptionmu.com"></a>http://redemptionmu.com</h4>
+            <div>
+                <h3 class="footerfont">Follow us on our social media</h3>
+            </div>
+                </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
