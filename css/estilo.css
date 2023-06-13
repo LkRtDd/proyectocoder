@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: black;
+  background: linear-gradient(180deg, black 0%, #240303 35%, black 100%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ff9100; }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #ff7300;
+  text-decoration: underline; }
+
+.navigationbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  list-style: none;
+  margin-bottom: 25px; }
+  .navigationbar li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .navigationbar li a {
+      padding: 15px;
+      margin: 10px;
+      color: #f80101;
+      text-decoration: none; }
+      .navigationbar li a:hover {
+        color: red;
+        background-color: #dd5212;
+        border-radius: 10px; }
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    width: 80%; } }
+
+.indexmain {
+  text-align: center;
+  justify-content: center; }
+  .indexmain img {
+    width: 75%; }
+
+.login {
+  line-height: 2.5;
+  background-color: black; }
+
+.downloadbox {
+  line-height: 2.2; }
+
+.rulebody {
+  font-family: Arial, sans-serif;
+  margin: 0; }
+  .rulebody h4 {
+    color: #b3551f; }
+  .rulebody h2 {
+    color: #ff9101;
+    text-decoration: underline; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; }
+
+.rulebox,
+.rulebox2,
+.rulebox3 {
+  border: 1px solid #613838;
+  padding: 15px; }
+
+.bannermu {
+  width: 45%; }
+
+footer {
+  padding: 20px;
+  text-align: left;
+  background: black;
+  background: linear-gradient(180deg, #090100 0%, #240303 35%, black 100%);
+  padding-left: 7px; }
+  footer .footerfont {
+    color: #b3ff00;
+    animation-duration: 5s;
+    animation-name: vanish;
+    animation-iteration-count: infinite; }
+
+@keyframes vanish {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.cardzoom {
+  transition: transform 0.3s ease; }
+
+.cardzoom:hover {
+  transform: scale(1.1); }
