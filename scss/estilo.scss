@@ -16,7 +16,14 @@
     color: rgb(255, 115, 0);
     text-decoration: underline;
   }
-  
+  .navigationbar {
+    .navbar-brand {
+      img {
+        width: 100px;
+        height: auto; 
+      }
+    }
+  }
   .navigationbar {
     display: flex;
     justify-content: flex-end;
@@ -136,5 +143,6 @@
   .cardzoom:hover {
     transform: scale(1.1);
   }
+ 
 
   
